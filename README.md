@@ -19,6 +19,7 @@ public static class MyCStruct extends CStruct {
 2) Fill it from byte array:
 
 ```
+byte[] array = receiveData();
 MyCStruct st_big_endian = new MyCStruct();
 st_big_endian.fill(array, ByteOrder.BIG_ENDIAN);
 ```
